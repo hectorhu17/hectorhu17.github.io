@@ -22,11 +22,13 @@
 </head>
 <body>
   <header class="main-header">
-    <a href="http://"><img src="./img/Isometric_2_white.svg" id="logo" class="glitch"></a>
-    <nav class="main-nav glitch">
+    <a href="http://"><img src="./img/Isometric_2_white.svg" id="logo"></a>
+    <nav id="menu" class="main-nav">
     <ul>
       <li><a href="http://">Home</a></li>
+      <li>/</li>
       <li><a href="">Project</a></li>
+      <li>/</li>
       <li><a href="">Contact</a></li>
     </ul>
     </nav>
@@ -35,10 +37,31 @@
   <div class="container">
     <img src="./img/me.png" alt="Hector Fernandes" class="me">
   </div>
-  <div class="presentation"><a class="glitch" data-text="Hector Fernandes">Hector Fernandes</a>
+  <div>
+
+    <div class="nameStyle">
+      
+      <a id="name" data-text="Hector Fernandes">Hector Fernandes</a>
+    
+    </div>
+
+    <br/>
+    <p class="presentation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam, dolorem consequatur eveniet deserunt suscipit amet, exercitationem accusamus quidem aperiam explicabo repellendus dignissimos! Officia, eos. Perferendis maxime reprehenderit est voluptates.</p>
+    
+    <div class="btn">
+      <a style="font-size: 10px;" id="turn">Turn off glitch</a>
+      <label class="switch">
+        <input type="checkbox" checked>
+        <div class="slider"></div>
+      </label>
+    </div>
+    
   </div>
+
   <div class="bio">
     
   </div>
+
+<script src="./src/script.js"></script>
 </body>
 </html>
