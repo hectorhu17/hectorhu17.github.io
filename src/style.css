@@ -14,8 +14,7 @@ body{
   padding: 0;
   margin: 0;
   background-color: #222222;
-  font-family: Minitel, sans-serif;
-  /* font-family: Share Tech Mono, sans-serif; */
+  font-family: Minitel, Share Tech Mono, sans-serif;
   color: white;
 }
 
