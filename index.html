@@ -16,7 +16,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/response.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>Hector Fernandes</title>
 </head>
@@ -25,23 +25,22 @@
     <a href="http://"><img src="./img/Isometric_2_white.svg" id="logo"></a>
     <nav id="menu" class="main-nav">
     <ul>
-      <li><a href="http://">Home</a></li>
-      <li>/</li>
       <li><a href="">Project</a></li>
       <li>/</li>
       <li><a href="">Contact</a></li>
     </ul>
     </nav>
+
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; </span>
   </header>
 
   <div class="container">
     <img src="./img/me.png" alt="Hector Fernandes" class="me">
-  </div>
-  <div>
 
     <div class="nameStyle">
       
-      <a id="name" data-text="Hector Fernandes">Hector Fernandes</a>
+      <a id="name">Hector Fernandes</a>
     
     </div>
 
@@ -60,6 +59,14 @@
 
   <div class="bio">
     
+  </div>
+
+  <div id="Nav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="">Project</a>
+      <a href="">Contact</a>
+    </div>
   </div>
 
 <script src="./src/script.js"></script>
