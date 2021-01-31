@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Meu primeiro post</title>
+      <link href="2021/01/31/Meu-primeiro-post/"/>
+      <url>2021/01/31/Meu-primeiro-post/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Testando-alguns-recursos"><a href="#Testando-alguns-recursos" class="headerlink" title="Testando alguns recursos"></a>Testando alguns recursos</h2><p>Os códigos funcionam da seguinte forma.</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">read</span>(<span class="params">a, b</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">`hello <span class="subst">$&#123;a&#125;</span> and <span class="subst">$&#123;b&#125;</span>`</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>A lista funciona assim:</p><ol><li>lista</li><li>ordenada</li><li>numerada</li></ol><p>lista de tarefas</p><ul><li><input disabled="" type="checkbox"> fazer coisa</li><li><input disabled="" type="checkbox"> fazer outra coisa</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> primeiro-post </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
