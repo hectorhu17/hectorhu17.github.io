@@ -352,7 +352,7 @@ body h5,
 body h6 {
   display: inline;
   text-decoration: none;
-  color: #ccc;
+  color: #fffff2;
   font-weight: bold;
   font-size: 0.9rem;
 }
@@ -364,7 +364,7 @@ body h6 {
   margin-bottom: 0.5rem;
 }
 body hr {
-  border: 0.5px dashed #ccc;
+  border: 0.5px dashed #fffff2;
   opacity: 0.5;
   margin: 0;
   margin-top: 20px;
@@ -419,7 +419,7 @@ body table {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
-  font-size: 12px;
+  font-size: 13px;
   overflow: auto;
   display: block;
 }
@@ -428,7 +428,7 @@ body th {
   border-bottom: 1px dashed #666;
   color: #eee;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 14px;
 }
 body td {
   padding: 0 8px;
@@ -459,7 +459,7 @@ body {
   color: #c9cacc;
   font-display: swap;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Menlo", "Meslo LG", monospace;
   line-height: 1.725;
   text-rendering: geometricPrecision;
@@ -1073,7 +1073,7 @@ article header .meta {
   margin-bottom: 1rem;
 }
 article header .meta * {
-  color: #ccc;
+  color: #fffff2;
   font-size: 0.85rem;
 }
 article header .author {
@@ -1320,7 +1320,7 @@ article .content .caption {
   padding: 4px 7px;
   width: 100%;
   outline: none;
-  border: solid 1px #ccc;
+  border: solid 1px #fffff2;
   border-radius: 5px;
   background-color: #1d1f21;
   color: #c9cacc;
@@ -1385,7 +1385,7 @@ article .content .caption {
   color: #1d1f21;
   font-display: swap;
   font-weight: 400;
-  font-size: 11.200000000000001px;
+  font-size: 12px;
   font-family: "Menlo", "Meslo LG", monospace;
   line-height: 1.725;
   text-rendering: geometricPrecision;
@@ -1487,67 +1487,62 @@ article .content .caption {
   content: ")";
 }
 .highlight {
-  background: #474949;
-  color: #d1d9e1;
+  color: #444;
+  background: #f0f0f0;
 }
-.highlight .code .comment,
-.highlight .code .quote {
-  color: #969896;
-  font-style: italic;
+.highlight .code .subst {
+  color: #444;
 }
 .highlight .code .keyword,
+.highlight .code .attribute,
 .highlight .code .selector-tag,
-.highlight .code .literal,
-.highlight .code .type,
-.highlight .code .addition {
-  color: #c9c;
-}
-.highlight .code .number,
-.highlight .code .selector-attr,
-.highlight .code .selector-pseudo {
-  color: #f99157;
-}
-.highlight .code .string,
+.highlight .code .meta-keyword,
 .highlight .code .doctag,
-.highlight .code .regexp {
-  color: #8abeb7;
-}
-.highlight .code .title,
-.highlight .code .name,
-.highlight .code .section,
-.highlight .code .built_in {
-  color: #b5bd68;
-}
-.highlight .code .variable,
-.highlight .code .template-variable,
-.highlight .code .selector-id,
-.highlight .code .class .title {
-  color: #fc6;
-}
-.highlight .code .section,
-.highlight .code .name,
-.highlight .code .strong {
+.highlight .code .name {
   font-weight: bold;
 }
-.highlight .code .symbol,
+.highlight .code .built_in,
+.highlight .code .literal,
 .highlight .code .bullet,
-.highlight .code .subst,
-.highlight .code .meta,
-.highlight .code .link {
-  color: #f99157;
+.highlight .code .code,
+.highlight .code .addition {
+  color: #1f811f;
 }
+.highlight .code .regexp,
+.highlight .code .symbol,
+.highlight .code .variable,
+.highlight .code .template-variable,
+.highlight .code .link,
+.highlight .code .selector-attr,
+.highlight .code .selector-pseudo {
+  color: #bc6060;
+}
+.highlight .code .type,
+.highlight .code .string,
+.highlight .code .number,
+.highlight .code .selector-id,
+.highlight .code .selector-class,
+.highlight .code .quote,
+.highlight .code .template-tag,
 .highlight .code .deletion {
-  color: #dc322f;
+  color: #800;
 }
-.highlight .code .formula {
-  background: #eee8d5;
+.highlight .code .title,
+.highlight .code .section {
+  color: #800;
+  font-weight: bold;
 }
-.highlight .code .attr,
-.highlight .code .attribute {
-  color: #81a2be;
+.highlight .code .comment {
+  color: #888;
+}
+.highlight .code .meta {
+  color: #2b6ea1;
 }
 .highlight .code .emphasis {
   font-style: italic;
+}
+.highlight .code .strong {
+  font-weight: bold;
 }
 pre {
   overflow-x: auto;
@@ -1578,6 +1573,7 @@ code {
   border-radius: 4px;
   background: #212326;
   font-family: "Menlo", "Meslo LG", monospace;
+  color: #fffff2;
   -webkit-border-radius: 4px;
 }
 .highlight figcaption {
