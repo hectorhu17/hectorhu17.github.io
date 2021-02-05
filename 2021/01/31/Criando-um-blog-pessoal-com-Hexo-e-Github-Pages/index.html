@@ -163,29 +163,17 @@
 <p>​    <em>NPM: 6.14.11</em></p>
 <h2 id="Requerimentos"><a href="#Requerimentos" class="headerlink" title="Requerimentos"></a>Requerimentos</h2><p>Você vai precisar ter instalado o NodeJS, o NPM e o git</p>
 <p>O git você consegue instalar com o comando:</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ sudo apt install git-all<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> sudo apt install git-all</span><br></code></pre></td></tr></table></figure>
 <p>Agora o nodeJS e o NPM recomendo que sigam esse <a target="_blank" rel="noopener" href="https://github.com/nodesource/distributions/blob/master/README.md#debinstall">tutorial</a> ou digitando no terminal:</p>
-<pre class="line-numbers language-sh" data-language="sh"><code class="language-sh"># Usando Ubuntu
-$ curl -sL https:&#x2F;&#x2F;deb.nodesource.com&#x2F;setup_14.x | sudo -E bash -
-$ sudo apt-get install -y nodejs
-
-# Usando Debian, como root
-$ curl -sL https:&#x2F;&#x2F;deb.nodesource.com&#x2F;setup_14.x | bash -
-$ apt-get install -y nodejs
-
-# NPM
-$ sudo apt install npm<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs sh"><span class="hljs-comment"># Usando Ubuntu</span><br>$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -<br>$ sudo apt-get install -y nodejs<br><br><span class="hljs-comment"># Usando Debian, como root</span><br>$ curl -sL https://deb.nodesource.com/setup_14.x | bash -<br>$ apt-get install -y nodejs<br><br><span class="hljs-comment"># NPM</span><br>$ sudo apt install npm<br></code></pre></td></tr></table></figure>
 
 
 <p>Para ter certeza de que foi instalado, digite o comando:</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ node -v &amp;&amp; npm -v
-# saída:
-v14.15.4
-6.14.11<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> node -v &amp;&amp; npm -v</span><br><span class="hljs-meta">#</span><span class="bash"> saída:</span><br>v14.15.4<br>6.14.11<br></code></pre></td></tr></table></figure>
 
 
 <h2 id="Instalando-o-Hexo"><a href="#Instalando-o-Hexo" class="headerlink" title="Instalando o Hexo"></a>Instalando o Hexo</h2><p>Para instalar o Hexo usaremos o npm, abra o terminal e digite:</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ npm install -g hexo-cli <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> npm install -g hexo-cli</span> <br></code></pre></td></tr></table></figure>
 
 
 <h2 id="Criando-uma-pagina-com-o-Github-Pages"><a href="#Criando-uma-pagina-com-o-Github-Pages" class="headerlink" title="Criando uma página com o Github Pages"></a>Criando uma página com o Github Pages</h2><p>Acesse o <a target="_blank" rel="noopener" href="https://github.com/">Github</a> e clique no <strong>+</strong> no lado direito do site:</p>
@@ -194,60 +182,40 @@ v14.15.4
 <p>E depois em <code>New repository</code></p>
 <p>O nome do repositório deve ser <code>username.github.io</code> onde <code>username</code> é seu nome de usuário no github. Como exemplo vou usar o meu que é <code>devhector</code>, o repositório deve ser <code>devhector.github.io</code>.</p>
 <h2 id="Criando-um-projeto-para-seu-Github-Pages"><a href="#Criando-um-projeto-para-seu-Github-Pages" class="headerlink" title="Criando um projeto para seu Github Pages"></a>Criando um projeto para seu Github Pages</h2><p>Vamos criar um projeto com o Hexo, para entre na pasta que deseja salvar, abra o teminal no local e digite:</p>
-<pre class="line-numbers language-sh" data-language="sh"><code class="language-sh">$ hexo init devhector.github.io<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs sh">$ hexo init devhector.github.io<br></code></pre></td></tr></table></figure>
 <p>Substitua o <code>devhector</code> pelo seu usuário github.</p>
 <p>Entre na pasta do projeto criada:</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ cd devhector.github.io<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">cd</span> devhector.github.io</span><br></code></pre></td></tr></table></figure>
 <p>E depois:</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ npm install<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> npm install</span><br></code></pre></td></tr></table></figure>
 
 
 <h2 id="Levantando-o-server-localmente"><a href="#Levantando-o-server-localmente" class="headerlink" title="Levantando o server localmente"></a>Levantando o server localmente</h2><p>Digite: </p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> hexo server</span><br></code></pre></td></tr></table></figure>
 <p>acesse no navegador: </p>
 <p><code>http://localhost:4000/</code></p>
 <p>Agora seu blog está funcionando, mas localmente.</p>
 <h2 id="Colocando-as-informacoes-do-seu-blog"><a href="#Colocando-as-informacoes-do-seu-blog" class="headerlink" title="Colocando as informações do seu blog"></a>Colocando as informações do seu blog</h2><p>Na pasta raiz vamos editar o <code>_config.yml</code>, eu usarei o <a target="_blank" rel="noopener" href="https://micro-editor.github.io/">micro</a>, mas você pode usar o editor de texto que quiser como: <code>nano, vim, gedit...</code></p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ sudo micro _config.yml
-
--------------------------------------------------------------
-
-# Site
-title: Hector Fernandes
-subtitle: &#39;&#39;
-description: &#39;Estudante de Eng. de Computação na UFPEL 💻. 
-Esse blog é uma forma de documentar publicamente os meus estudos.&#39;
-keywords:
-author: Hector Fernandes
-language: pt-br
-timezone: America&#x2F;Sao_Paulo<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> sudo micro _config.yml</span><br><br>-------------------------------------------------------------<br><br><span class="hljs-meta">#</span><span class="bash"> Site</span><br>title: Hector Fernandes<br>subtitle: &#x27;&#x27;<br>description: &#x27;Estudante de Eng. de Computação na UFPEL 💻. <br>Esse blog é uma forma de documentar publicamente os meus estudos.&#x27;<br>keywords:<br>author: Hector Fernandes<br>language: pt-br<br>timezone: America/Sao_Paulo<br></code></pre></td></tr></table></figure>
 <p>Edite da forma que achar melhor. Veja a <a target="_blank" rel="noopener" href="https://hexo.io/docs/configuration.html">documentação oficial</a></p>
 <h2 id="Informando-seu-repositorio-Github"><a href="#Informando-seu-repositorio-Github" class="headerlink" title="Informando seu repositório Github"></a>Informando seu repositório Github</h2><p>Primeiro vamos instalar o pacote <code>hexo-deployer-git</code> , digite:</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ npm install hexo-deployer-git --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> npm install hexo-deployer-git --save</span><br></code></pre></td></tr></table></figure>
 <p>e edite o  <code>_config.yml</code>, vamos até a parte onde está escrito <code>deploy</code>:</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ sudo micro _config.yml
-
--------------------------------------------------------------
-
-deploy:
-  type: git
-  repo: git@github.com:devhector&#x2F;devhector.github.io.git
-  branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> sudo micro _config.yml</span><br><br>-------------------------------------------------------------<br><br>deploy:<br>  type: git<br>  repo: git@github.com:devhector/devhector.github.io.git<br>  branch: master<br></code></pre></td></tr></table></figure>
 <p>onde <code>repo:</code> você vai colocar o mesmo de quando usa o <code>git clone</code></p>
 <img src='https://i.imgur.com/bqUGfAw.png' align='left'/>
 
 <p>Veja a <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-deployer-git">documentação oficial</a></p>
 <h2 id="Monitorando-os-arquivos-mudados"><a href="#Monitorando-os-arquivos-mudados" class="headerlink" title="Monitorando os arquivos mudados"></a>Monitorando os arquivos mudados</h2><p>Abra uma nova aba do terminal na pasta raiz <code>devhecto.github.io</code> :</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ hexo generate --watch<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> hexo generate --watch</span><br></code></pre></td></tr></table></figure>
 <p>Isso vai fazer com que o Hexo monitore os arquivos mudados, você pode se aprofundar mais <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">aqui</a>.</p>
 <h2 id="Criando-um-post"><a href="#Criando-um-post" class="headerlink" title="Criando um post"></a>Criando um post</h2><p>Para criar um post, digite no terminal:</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ hexo new &quot;título do post&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> hexo new <span class="hljs-string">&quot;título do post&quot;</span></span><br></code></pre></td></tr></table></figure>
 <p>e para editar:</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$  cd source&#x2F;_posts&#x2F;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash">  <span class="hljs-built_in">cd</span> <span class="hljs-built_in">source</span>/_posts/</span><br></code></pre></td></tr></table></figure>
 <p>e editamos o arquivo <code>titulo-do-post.md</code> criado, usando o <code>markdown</code>.</p>
 <h2 id="Fazendo-o-deploy-do-blog"><a href="#Fazendo-o-deploy-do-blog" class="headerlink" title="Fazendo o deploy do blog"></a>Fazendo o deploy do blog</h2><p>Para finalizar, vamos fazer o deploy, para isso digite:</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">$ hexo clean
-$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> hexo clean</span><br><span class="hljs-meta">$</span><span class="bash"> hexo deploy</span><br></code></pre></td></tr></table></figure>
 <p><a target="_blank" rel="noopener" href="https://hexo.io/docs/generating">Documentação oficial</a></p>
 <p>Geralmente para a nossa página ir para o ar na primeira vez, demora em média 30 min. Mas você pode acessar <a target="_blank" rel="noopener" href="https://devhector.github.io/">devhector.github.io</a> para testar se o blog já está no ar. (lembrando de sempre substituir o <code>devhector</code> com o seu usuário).</p>
 <p><a target="_blank" rel="noopener" href="https://devhector.github.io/2021/02/03/Mudando-o-tema-do-Hexo/">No próximo post, irei mostrar como é simples mudar o tema usando o Hexo.</a></p>
