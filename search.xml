@@ -31,9 +31,19 @@
       <link href="2021/02/03/CRUD-com-NodeJs-Express-Mongodb/"/>
       <url>2021/02/03/CRUD-com-NodeJs-Express-Mongodb/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="Repositorio"><a href="#Repositorio" class="headerlink" title="Repositório"></a>Repositório</h2><p>O repositório no <a href="https://github.com/devhector/nodejs-CRUD">github</a> contém todas as dependências, faça o clone e dê um <code>npm install</code></p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> nodejs </tag>
+            
+            <tag> js </tag>
+            
+            <tag> mongodb </tag>
+            
+        </tags>
       
     </entry>
     
