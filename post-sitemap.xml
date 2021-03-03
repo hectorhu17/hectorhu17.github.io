@@ -9,8 +9,16 @@
 
 
     <url>
+        <loc>http://example.com/2021/03/03/Teste-para-estagio-back-end/</loc>
+        <lastmod>2021-03-03T13:46:01.030Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://example.com/2021/02/03/CRUD-com-NodeJs-Express-Mongodb/</loc>
-        <lastmod>2021-02-13T22:53:54.684Z</lastmod>
+        <lastmod>2021-02-13T22:57:31.416Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
